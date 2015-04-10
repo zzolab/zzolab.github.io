@@ -248,6 +248,8 @@ PORTFOLIO SECTION
 	padding: 100px 0;
 }
 .description p{
+	padding: 0 20px;
+	line-height: 1.5;
 	font-size: 2em;
 }
 /*================================
