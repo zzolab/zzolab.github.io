@@ -18,7 +18,8 @@ body {
 }
 
 .bigicon {font-size: 3em;}
-h1{font-size: 50px; font-weight: 600;}
+.superbigicon {font-size: 10em;}
+h1{font-size: 55px; font-weight: 800;}
 h2{font-size: 42px;}
 h3{font-size: 28px;}
 h4{font-size: 18px; line-height: 1.4em;}
@@ -125,16 +126,34 @@ CLIENTS SECTION
 ABOUT SECTION
 ================================*/
 #about{
-	padding-top: 200px;
-    height: 100vh;
+	padding-top: 150px;
+    min-height: 800px;
 }
 
-.myapps{margin-top: 25px;}
-.myapps li{display: inline}
-.myapps li img{
-    width: 30px;
+.detail h3{
+	padding-top: 20px;
+	line-height: 1.5;
+	font-size: 23px;
+	color: #777;
+	
 }
 
+.english {
+	font-family: monaco, verdana;
+	font-size:16px;
+	color: #999;
+}
+
+#question {
+	font-size: 28px;
+}
+
+.aboutImage {
+	text-align: center;
+	padding: 200px 0;
+	font-size: 15em;
+	color: #666;
+}
 /*================================
 MEMBERS SECTION
 ================================*/
@@ -152,17 +171,21 @@ MEMBERS SECTION
 
 blockquote{
     margin: 0;
-    padding: 0 0 10px 0;
+    padding: 0 0 20px 0;
     border: none;
 }
 
 blockquote p{   
     font-size: 16px;
-    color: #666;
+    color: #333;
 }
 
 .quote{overflow: hidden}
-.quote h5{margin-bottom: 5px;}
+.quote h5{
+	color: #666;
+	margin-top: 0px;
+	line-height: 0;
+	}
 
 
 
@@ -176,7 +199,7 @@ PORTFOLIO SECTION
     text-align: center;
 }
 
-#shotsByPlayerId li{
+#items li{
     width: 31%;
     float: left;
     padding: 15px;
@@ -186,7 +209,7 @@ PORTFOLIO SECTION
     list-style: none;
 }
 
-#shotsByPlayerId li:hover{
+#items li:hover{
     box-shadow: 1px 2px 25px rgba(160, 160, 160, 0.4);
     -webkit-transition: .7s ease-out;
  	-moz-transition: .7s ease-out;
@@ -194,19 +217,19 @@ PORTFOLIO SECTION
  	transition: .7s ease-out;
 }
 
-#shotsByPlayerId li img{
+#items li img{
     width: 100%;
     border-radius: 5px;
 }
 
-#shotsByPlayerId img:hover{
+#items img:hover{
     opacity: .5;
     overflow: hidden;
 }
 
-#shotsByPlayerId a:hover{color: #ea9312;}
+#items a:hover{color: #ea9312;}
 
-#shotsByPlayerId h3{
+#items h3{
     text-align: left;
     font-size: 14px;
     letter-spacing: 1px;
@@ -217,11 +240,16 @@ PORTFOLIO SECTION
     overflow: hidden;
     text-overflow: ellipsis;}
 
-#shotsByPlayerId h3 a{color: #363942;}
+#items h3 a{color: #363942;}
 
 .likecount a{float: left; color: #c3c3c3;}
 .commentcount a{float: right; color: #c3c3c3;}
-
+.description {
+	padding: 100px 0;
+}
+.description p{
+	font-size: 2em;
+}
 /*================================
 FOOTER SECTION
 ================================*/

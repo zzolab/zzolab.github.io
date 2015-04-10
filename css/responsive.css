@@ -9,7 +9,7 @@
 	}
 
 	#about {
-		max-height: 660px;
+		min-height: 660px;
 	}
     /* FEATURED CLIENTS SECTION*/
     #clients img{height: 50px;}
@@ -29,9 +29,13 @@
     /*ABOUT SECTION*/
     #about{
 	    padding-top: 40px;
-		height: 540px;
+		min-height: 540px;
 	}
-    
+
+	.aboutImage {
+		display: none;
+	}
+	    
     /* FEATURED CLIENTS SECTION*/
     #clients {text-align: center;}
     #clients img{height: 40px;}
@@ -78,8 +82,10 @@
     
     /*About section*/
     #about{
-	    text-align: center;
-	    height: 400px;
+	    min-height: 400px;
+	}
+	.aboutImage {
+		display: none;
 	}
     
     /*Portfolio*/
@@ -96,9 +102,13 @@
 		position: relative;
 	    top: 40%;
 	}
+
 	#about {
-		height: 320px;
+		min-height: 320px;
 	}
+	.aboutImage {
+		display: none;
+	}	
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
 }
@@ -110,10 +120,13 @@
 		position: relative;
 	    top: 30%;
 	}
-	#about {
-		height: 480px;
-	}
 
+	#about {
+		min-height: 320px;
+	}
+	.aboutImage {
+		display: none;
+	}
 }
 
 
