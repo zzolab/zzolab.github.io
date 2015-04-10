@@ -108,13 +108,11 @@
     #hero{}
 	.title {
 		position: relative;
-	    top: 40%;
+	    top: 30%;
 	}
 	#about {
 		height: 480px;
 	}
-
-    .herocontent{}
 
 }
 
